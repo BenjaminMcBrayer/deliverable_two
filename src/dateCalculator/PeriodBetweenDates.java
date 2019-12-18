@@ -48,7 +48,7 @@ public class PeriodBetweenDates {
 		 */
 		String prompt = "Please type the first date (format: yyyymmdd) and then press Enter.";
 		LocalDate firstUserDate = validateUserDate(SCNR, prompt);
-		prompt = "Please type the second date (format: yyyymmdd) and then press Enter."
+		prompt = "Please type the second date (format: yyyymmdd) and then press Enter.";
 		LocalDate secondUserDate = validateUserDate(SCNR, prompt);
 		
 		//Determine the period.
